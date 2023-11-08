@@ -6,6 +6,13 @@ Library                  Browser
 **Test Cases ***
 Deve poder cadastrar um novo dog walker
     
+    # Gabriel Costa
+    # gabriel@costa.com
+    # 00000014141
+    # 78050-000
+    # 1000
+    # Apto 35
+
     New Browser         browser=chromium                            headless=False
     New Page            https://walkdog.vercel.app/signup
 
