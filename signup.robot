@@ -38,4 +38,7 @@ Deve poder cadastrar um novo dog walker
 
     Upload File By Selector      css=input[type=file]               ${EXECDIR}/toretto.jpg
 
-    Sleep               20
+    Click               css=.button-register
+
+    Wait For Elements State    css=.swal2-html-container            visible                5
+    Get Text            css=.swal2-html-container    equal          Recebemos o seu cadastro e em breve retornaremos o contato.
