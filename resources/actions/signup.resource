@@ -38,3 +38,8 @@ Popup should be
     [Arguments]        ${expected_text}
     Wait For Elements State    css=.swal2-html-container            visible                5
     Get Text            css=.swal2-html-container    equal          ${expected_text}
+
+Alert should be
+    [Arguments]        ${expected_text}
+    Wait For Elements State    css=.alert-error                     visible                5
+    Get Text                   css=.alert-error    equal            ${expected_text}
