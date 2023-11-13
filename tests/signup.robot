@@ -25,7 +25,7 @@ Deve poder cadastrar um novo dog walker
     Popup should be    Recebemos o seu cadastro e em breve retornaremos o contato.
     Finish session
 
-Não deve cadastrar se os campos obrigatórios não forme preenchidos
+Não deve cadastrar se os campos obrigatórios não forem preenchidos
     [Tags]    required
 
     Start session

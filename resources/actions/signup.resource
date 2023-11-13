@@ -41,5 +41,5 @@ Popup should be
 
 Alert should be
     [Arguments]        ${expected_text}
-    Wait For Elements State    css=.alert-error                     visible                5
-    Get Text                   css=.alert-error    equal            ${expected_text}
+    Wait For Elements State    css=.alert-error >> text=${expected_text}  visible          5
+    #Get Text                   css=.alert-error    equal            ${expected_text}

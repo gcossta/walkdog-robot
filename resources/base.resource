@@ -3,6 +3,7 @@ Documentation        Arquivo principal do projeto
 
 Library              Browser
 
+
 Resource             actions/signup.resource
 
 *** Keywords ***
