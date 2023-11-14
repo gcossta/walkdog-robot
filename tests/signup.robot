@@ -74,12 +74,12 @@ Deve poder cadastrar um novo dog walker que sabe cuidar de pets
     ...    number=1000
     ...    details=Apto 35
     ...    cnh=toretto.jpg
-    ...    additional_service=Cuidar
             
     Go to signup page
-    Fill signup form   ${dog_walker}
+    Fill signup form    ${dog_walker}
+    Additional Service  Cuidar
     Submit signup form
-    Popup should be    Recebemos o seu cadastro e em breve retornaremos o contato.
+    Popup should be     Recebemos o seu cadastro e em breve retornaremos o contato.
 
 Deve poder cadastrar um novo dog walker que sabe adestrar pets
     [Tags]             aservice
@@ -98,6 +98,7 @@ Deve poder cadastrar um novo dog walker que sabe adestrar pets
     ...    additional_service=Adestrar
             
     Go to signup page
-    Fill signup form   ${dog_walker}
+    Fill signup form    ${dog_walker}
+    Additional Service  Adestrar
     Submit signup form
-    Popup should be    Recebemos o seu cadastro e em breve retornaremos o contato.
+    Popup should be     Recebemos o seu cadastro e em breve retornaremos o contato.
